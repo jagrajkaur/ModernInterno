@@ -10,7 +10,7 @@
 </head>
 <body>
 <%@ include file="template/header.jsp"%>
-	<div class="container" ng-app = "cartApp">
+	<div class="container jumbotron" ng-app = "cartApp">
 	<div class="page-header">
             <h1>Product Detail</h1>
             <p class="lead">Here is the detail information of the product:</p>

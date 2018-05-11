@@ -15,7 +15,9 @@
     
     <form:form method="POST" action="registerCustomer" commandName="customer">
     
-    <div  class="container row form-group" style="margin-top: 5px; margin-left: 10%;">
+    <h1 style="margin-left: 3%">Please fill the following details.....</h1>
+    
+    <div  class="container jumbotron row form-group" style="margin-top: 5px; margin-left: 3%;">
     
     <div class="col-sm-4" style="width: 30%;">
         <h2>Customer Deatils</h2>

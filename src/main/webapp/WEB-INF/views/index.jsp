@@ -98,7 +98,7 @@
         <img src="./resources/images/interior-design-living-room.jpg" class="img-circle" alt="first" style="width:70%; height:30vh;">
         <div class="container-fluid">
         <div class="caption">
-          <p>hall..</p>
+          <p align="center">Living Room</p>
         </div>
         </div>
       </a>
@@ -109,7 +109,7 @@
       <a href="./resources/images/background_5.jpg">
         <img src="./resources/images/background_5.jpg" class="img-circle" alt="second" style="width:70%; height:30vh;">
         <div class="caption">
-          <p>dinning table..</p>
+          <p align="center">Dinning table</p>
         </div>
       </a>
     </div>
@@ -119,7 +119,7 @@
       <a href="./resources/images/5.jpg">
         <img src="./resources/images/5.jpg" class="img-circle" alt="third" style="width:70%; height:30vh;">
         <div class="caption">
-          <p>bedroom</p>
+          <p align="center">Bedroom</p>
         </div>
       </a>
     </div>

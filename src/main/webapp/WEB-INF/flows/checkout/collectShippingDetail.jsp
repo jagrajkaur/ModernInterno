@@ -2,7 +2,7 @@
 <%@ include file="/WEB-INF/views/template/header.jsp" %>
 
 
-<div class="container-wrapper">
+<div class="container container-wrapper jumbotron">
     <div class="container">
         <div class="page-header">
             <h1>Cutomer</h1>

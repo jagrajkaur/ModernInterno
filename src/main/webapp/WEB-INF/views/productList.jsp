@@ -11,7 +11,7 @@
 
 	<%@ include file="template/header.jsp"%>
 
-	<center><h1>List of Products</h1></center>
+	<center><h1><b><u>List of Products</u></b></h1></center>
 	<!-- for iteration - similar to for() in Java -->
 	<!-- products is a model attribute, to which we have assigned List<Product> -->
 	<!-- 
@@ -20,7 +20,7 @@ p = 1	Study Table design for bedroom	Study Table	6899.0	3
 2	Decorative Wardrobe available easily	Wardrobe	16899.0	2
 3	3-seater sofa length- 85"	Leather Sofa	10999.0	4
  -->
- <div class="container">
+ <div class="container jumbotron">
 	<table class="table table-bordered table-hover">
 		<thead>
 			<tr>

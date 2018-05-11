@@ -16,7 +16,7 @@
         
        		
             <ul style="list-style-type: none; padding: 5px;">
-            <li style="float:left; margin-left:15px; ">@ 2017- All rights reserved</li>
+            <li style="float:left; margin-left:15px; ">@ 2018- All rights reserved</li>
             <li><span style="float:right; margin-right:15px;"><a href="privacy">Privacy & Policy</a>    <a href="terms"> Terms & conditions</a></span></li>
             </ul>
             

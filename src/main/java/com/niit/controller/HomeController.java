@@ -13,7 +13,13 @@ public class HomeController {
 	{
 		System.out.println("Inside HomeController");
 		return "index";
-	} 
+	}
+	
+	@RequestMapping("/about")
+	public String aboutUs()
+	{
+		return "about";
+	}
 	
 	@RequestMapping("/privacy")
 	public String privacy()
@@ -21,11 +27,16 @@ public class HomeController {
 		return "privacy";
 	}
 	
-
 	@RequestMapping("/terms")
 	public String terms()
 	{
 		return "terms&conditions";
+	}
+	
+	@RequestMapping("/contactUs")
+	public String contactUs()
+	{
+		return "contactUs";
 	}
 	
 	@RequestMapping("/login")	// /login.... /login?error(invalid credentials)..... /login?logout(successful logout)

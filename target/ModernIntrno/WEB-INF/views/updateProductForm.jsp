@@ -19,12 +19,13 @@
 	 <p class="lead">Please update the product information here....</p>
 	</div>
 	
-<form:form method="POST" action="${pageContext.request.contextPath}/admin/updateProductForm/${product.pid}" commandName="product"  enctype="multipart/form-data">
+<form:form method="POST" action="${pageContext.request.contextPath}/admin/updateProductForm/submit" commandName="product"  enctype="multipart/form-data">
 <table class="table form-group">
         <tr>
             <td><label for="name">Enter Product Name</label></td>
             <td><form:input path="name" id="name"/><br>
             <form:errors path="name" cssStyle="color:red"></form:errors></td>
+            <form:hidden path="pid" value="${product.pid}" />
         </tr>
         
         <tr>

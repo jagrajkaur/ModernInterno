@@ -3,8 +3,8 @@
 <%@ include file="/WEB-INF/views/template/header.jsp" %>
 
 <div class="container-wrapper container-fluid">
-    <div class="container" style="width: 50%">
-        <div id="login-box" style="border: 1px solid #fff; padding:50px 40px; margin-top: 13vh; 
+    <div class="container" style="width: 55%">
+        <div id="login-box" style="border: 1px solid #fff; padding:50px 50px; margin-top: 13vh; 
         -webkit-box-shadow: -1px 4px 27px 11px rgba(0,0,0,0.75);
         -moz-box-shadow: -1px 4px 27px 11px rgba(0,0,0,0.75);
         box-shadow: -1px 4px 27px 11px rgba(0,0,0,0.75);"">

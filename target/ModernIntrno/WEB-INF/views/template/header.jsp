@@ -51,14 +51,7 @@
 							<li><a href="<c:url value="allProducts" />"><span
 									class="glyphicon glyphicon-th"></span>All Products</a></li>
 							<li><a href=<c:url value="admin/addProduct" />">Add Product</a></li>
-							<li class="dropdown"><a href="" class="dropdown-toggle"
-								data-toggle="dropdown">Select by Categories<span
-									class="caret"></span></a>
-								<ul class="dropdown-menu">
-									<li><a href="">Modern</a></li>
-									<li><a href="">Traditional </a></li>
-									<li><a href="">Contemporary</a></li>
-								</ul></li>
+							<li><a href=<c:url value="about" />">About Us</a></li>
 						</ul>
 						<ul class="nav navbar-nav navbar-right">
 
@@ -81,6 +74,7 @@
 							</c:if>
 
 							<c:if test="${pageContext.request.userPrincipal.name == null}">
+								<li><a href="<c:url value="/contactUs" "/>"Contact Us</a></li>
 								<li><a href="<c:url value="/login"/>"><span
 										class="glyphicon glyphicon-user"></span>Login</a></li>
 								<li><a href="<c:url value="/registerCustomer"/>"><span
